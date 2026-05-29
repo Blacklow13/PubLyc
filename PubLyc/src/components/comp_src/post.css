@@ -1,0 +1,161 @@
+.title{
+    display: flex;
+    height: 3vh;
+    
+}
+
+.post_title{
+    all: unset;
+    height: 100%;
+    margin: 0px;
+}
+
+.post-stats{
+    display: flex;
+}
+
+.stat{
+    display: flex;
+    width: 50px;
+
+}
+
+.stat_icon{
+    width: 24px;
+    height: 24px;
+}
+
+.stat_cnt{
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+}
+
+.post_img{
+    width: 35%;
+    height: 20vh;
+}
+
+.post-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-title-subscription{
+    display: flex;
+    height: 2.4vh;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.post-card {
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: white;
+    border: 2px solid #333;
+    border-radius: 16px;
+
+    transition: all 0.3s;
+}
+
+.post-image-placeholder {
+  width: 100%;
+  height: 23vh;
+  background: #d2ffe9;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  position: relative;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.post-card:hover {
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.post-left {
+  flex: 1;
+  max-width: 25vw;
+}
+
+.post-title {
+  font-size: 20px;
+  color: #333;
+  margin: 0px;
+  font-weight: 700;
+}
+
+.posts-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.posts-header h2 {
+  font-size: 28px;
+  color: #333;
+  margin: 0px;
+  font-weight: 700;
+}
+
+.posts-section {
+  background: white;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+
+}
+
+.author-avatar{
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  justify-self: center;
+  border: 4px solid white;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  margin-right: 5px;
+ 
+
+}
+
+.description-box{
+    height: calc(100% - 50px);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background: white;
+    border: 2px solid #919191;
+    border-radius: 16px;
+
+}
+
+.post-right{
+    width: calc(100% - 25vw);
+
+}
+
+.event-date{
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    align-self: center;
+}
+
+.sub-btn{
+    margin-left: 15px;
+}

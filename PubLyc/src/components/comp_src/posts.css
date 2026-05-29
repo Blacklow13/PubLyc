@@ -1,0 +1,25 @@
+#posts{
+    width: 100%;
+    min-height: 100vh; 
+    overflow: visible;
+    padding-bottom: 50px;
+}
+
+#posts_div{
+   padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.disabled-post{
+    visibility: hidden;
+    
+}
+
+.posts-grid {
+  
+}
+

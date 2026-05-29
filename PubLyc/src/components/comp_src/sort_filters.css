@@ -1,0 +1,100 @@
+#title_and_ordering{
+    display: flex;
+    justify-content: space-between;
+    height:  5.5vh;
+    padding-top: 15px;
+    padding-left: 64px;
+    padding-right: 64px;
+    position: sticky;
+    top: 61.6px;
+    z-index: 100; 
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+#title_posts{
+    position: center;
+    font-size: 25px;
+    align-self: center;
+    margin: 0px;
+}
+
+
+
+h3{
+    font-size: 13px;
+}
+
+input[type="radio"]{
+    height: 15px;
+    width: 15px;
+}
+
+.search-post-input{
+   padding-left: 5px;
+  border-radius: 20px;
+  font-size: 12px;
+  height: 25px;
+  align-self: center;
+}
+
+#categories_to_sort{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw;
+}
+
+select{
+    width: 10vw;
+    padding-left: 5px;
+  border-radius: 20px;
+  font-size: 12px;
+  height: 30px;
+  align-self: center;
+}
+
+option{
+    width: 265px;
+    padding-left: 5px;
+    border-radius: 20px;
+    font-size: 12px;
+    height: 25px;
+    align-self: center;
+}
+
+#sort_by{
+    height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.radio_choice{
+    display: flex;
+    align-items: center;
+}
+
+#radio_buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.categories-title{
+    margin: 0px;
+    font-size: 16px;
+    height: 20px;    
+    position: top;
+}
+
+.sort-select-div{
+    display: flex;
+    align-items: center;
+}
+
+.select-div{
+    padding-right: 10px;
+}
